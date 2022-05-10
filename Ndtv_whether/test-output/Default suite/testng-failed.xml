@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.ndtv.qa.testcases.Get_Weather_Page_Test">
+        <methods>
+          <include name="setup"/>
+          <include name="getTemprature"/>
+        </methods>
+      </class> <!-- com.ndtv.qa.testcases.Get_Weather_Page_Test -->
+      <class name="com.ndtv.qa.testcases.Three_Dot_To_Weather_Page_Test">
+        <methods>
+          <include name="clickThreeDotWeather"/>
+          <include name="validate_Three_Dot_To_Weather_Page_Title"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.ndtv.qa.testcases.Three_Dot_To_Weather_Page_Test -->
+      <class name="com.ndtv.qa.testcases.Pin_Your_City_Page_Test">
+        <methods>
+          <include name="setup"/>
+          <include name="clickThreeDotWeather"/>
+        </methods>
+      </class> <!-- com.ndtv.qa.testcases.Pin_Your_City_Page_Test -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
